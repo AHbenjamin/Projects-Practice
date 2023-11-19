@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #fff;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  position: sticky;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 20px;
+  z-index: 1000;
+}
+.logo {
+  /* background-color: red; */
+  font-family: "Poppins", sans-serif;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo h1 {
+  color: rgb(91, 79, 166);
+  margin-left: 5%;
+  /* margin-top: 5%; */
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.links {
+  margin-left: 10%;
+  margin-right: 5%;
+  /* background-color: green; */
+  width: 70%;
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: fle; */
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links a {
+  font-family: "Poppins", sans-serif;
+  color: #4e4747;
+  text-decoration: none;
+  font-size: 18px;
+}
+.start {
+  border: none;
+  padding: 10px 15px;
+  background-color: rgb(144, 133, 217);
+  font-size: 20px;
+  border-radius: 30px;
+}
+.start a {
+  color: #fff;
+  text-decoration: none;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+
+.image {
+  margin-left: 5%;
+  /* background-color: yellow; */
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10%;
+}
+img {
+  width: 100%;
+  height: 60%;
+}
+.maintex {
+  margin-left: 5%;
+  margin-right: 10%;
+  width: 60%;
+  height: 80%;
+  /* background-color: green; */
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+li {
+  text-indent: 5px;
+}
+
+.textinside h4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.textinside li {
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+span {
+  padding-right: 5px;
+}
+
+footer {
+  background-color: red;
+  height: 20vh;
+  margin-top: auto;
+}
